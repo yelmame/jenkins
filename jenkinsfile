@@ -8,7 +8,7 @@ pipeline {
         sh 'node --version'
     stage('print'){
       steps{
-        sh 'echo "node is installed & successfully "'
+        sh 'echo "node is installed & updated successfully "'
       }
     }
   }
